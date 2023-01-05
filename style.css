@@ -3,13 +3,19 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins",sans-serif;
+
+    background: #000 !important;
+    color: #0f0 !important;
+    outline: solid #f00 1px !important;
 }
-html, body {
+/*html, body {
     max-width: 100% !important;
     overflow-x: hidden !important;
-}
+}*/
+
 body{
     height: 100vh;
+    min-width: 275px;
 }
 /*-----STYLE SCROLL-----*/
 ::-webkit-scrollbar {
@@ -251,7 +257,7 @@ header .navigation .navigation-items a:hover:before{
     width: 100%;
     background-color: rgba(12,12,12);
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(15em, auto));
     grid-gap: 1.5rem;
     padding: 80px 14%; /*Verical - Horizontal*/
 }
@@ -266,13 +272,13 @@ header .navigation .navigation-items a:hover:before{
 }
 .container-inp .container-info .titulo{
     text-decoration: none;
-    font-size: 40px;
+    font-size: 2.5em;
     color: #AEB6BF;
     font-weight: 700; 
 }
 .container-inp .container-info .p {
     color: #5D6D7E;
-    font-size: 20px;
+    font-size: 1.2em;
     text-align: justify;
     font-weight: 600; 
 
@@ -285,7 +291,7 @@ header .navigation .navigation-items a:hover:before{
     width: 100%;
     background-color: rgba(14,14,14);
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(15em, auto));
     grid-gap: 1.5rem;
     padding: 80px 14%; /*Verical - Horizontal*/
 }
@@ -302,13 +308,13 @@ header .navigation .navigation-items a:hover:before{
 }
 .container-p .container-informacion .titulo{
     text-decoration: none;
-    font-size: 40px;
+    font-size: 2.5em;
     color: #AEB6BF;
     font-weight: 400; 
 }
 .container-p .container-informacion .p {
     color: #5D6D7E;
-    font-size: 20px;
+    font-size: 1.2em;
     text-align: justify;
 }
 /*-----FIN MAIN------*/
